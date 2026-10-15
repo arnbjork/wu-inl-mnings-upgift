@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+hero{
+    flex-direction: row;
+
+}
+
+.hero-articel{
+    display: flex;
+    background-color: red;
+
+}
+.hero-articel figure{
+    width: 60vw;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.hero-articel figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-info{
+    width: 40vw;   
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f3ef;
+}
+
+head{
+    width: 100%;
+    background-color: black;
+}
+head img{
+    height: 50%;
+    width: 50%;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+
+
+.article{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+.bod-article{
+    display: flex;
+    margin: 3vw;
+}
+.bod-article figure{
+    width: 25vw;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    height: 20wh;
+}
+.bod-article figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bod-article{
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f3ef;
+}
+.CTA-more-info{
+    width: 49%;
+    height: 5rem;
+    justify-self: baseline;
+    
+}
+.CTA-buy-ticets{
+    width: 49%;
+    height: 5rem;
+    justify-self: baseline;
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: blueviolet;
+    width: 100%;
+    height: 15rem;
+}
+
+
+
+
+
+
+
+
+
